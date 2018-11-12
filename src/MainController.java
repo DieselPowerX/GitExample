@@ -7,7 +7,10 @@ public class MainController {
     public static void main(String[] args) throws Exception {
 
 
+
         String url  ="http://www.apple.de";
+        
+
 
         URL conection =  new URL(url);
         HttpURLConnection con = (HttpURLConnection) conection.openConnection();
