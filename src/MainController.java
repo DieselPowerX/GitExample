@@ -6,7 +6,7 @@ import java.net.URL;
 public class MainController {
     public static void main(String[] args) throws Exception {
 
-        String url  ="http://www.google.de";
+        String url  ="http://www.google.eu";
         URL conection =  new URL(url);
         HttpURLConnection con = (HttpURLConnection) conection.openConnection();
 
