@@ -24,7 +24,7 @@ public class MainController {
         String inputLine;
         StringBuffer response = new StringBuffer();
 
-        
+        String s = "cos";
 
     }
 
