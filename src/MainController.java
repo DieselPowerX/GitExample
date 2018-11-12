@@ -9,20 +9,24 @@ public class MainController {
 
 
         String url  ="http://www.apple.de";
-        
+
 
 
         URL conection =  new URL(url);
         HttpURLConnection con = (HttpURLConnection) conection.openConnection();
+        System.out.println("DDD");
 
        
 
         int responseCode = con.getResponseCode();
         String commit;
+        String commit2;
+        String commit3 ="123";
 
         BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
         String inputLine;
         StringBuffer response = new StringBuffer();
+
 
         
 
