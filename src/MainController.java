@@ -5,6 +5,8 @@ public class MainController {
     public static void printSomeText(){
         System.out.println("ESKEITTTT");
         System.out.println();
+
+        System.out.println("HAHAHAH zmienilem cos");
     }
 
 }
