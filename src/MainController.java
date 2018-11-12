@@ -3,6 +3,8 @@ public class MainController {
         System.out.println("wellcome to the git");
     }
     public static void printSomeText(){
+        System.out.println("ESKEITTTT");
         System.out.println();
     }
+
 }
