@@ -7,6 +7,8 @@ public class MainController {
     public static void main(String[] args) throws Exception {
 
 
+        /// to jest moja galaz 
+
 
         String url  ="http://www.apple.de";
         
