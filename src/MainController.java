@@ -10,7 +10,7 @@ public class MainController {
         URL conection =  new URL(url);
         HttpURLConnection con = (HttpURLConnection) conection.openConnection();
 
-        con.setRequestMethod("GET");
+       
 
         int responseCode = con.getResponseCode();
 
