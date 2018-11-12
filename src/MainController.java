@@ -18,7 +18,6 @@ public class MainController {
        
 
         int responseCode = con.getResponseCode();
-        String commit;
 
 
         BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
