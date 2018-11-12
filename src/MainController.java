@@ -7,7 +7,7 @@ public class MainController {
     public static void main(String[] args) throws Exception {
 
 
-        String url  ="http://www.yahoo.de";
+        String url  ="http://www.yahoo.pl";
 
         URL conection =  new URL(url);
         HttpURLConnection con = (HttpURLConnection) conection.openConnection();
