@@ -11,4 +11,9 @@ public class MainController {
 
     }
 
+    public static String getSomeText(String s ){
+
+        return s+ " someTExt";
+    }
+
 }
