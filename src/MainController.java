@@ -7,6 +7,7 @@ public class MainController {
         System.out.println();
 
         System.out.println("HAHAHAH zmienilem cos");
+        System.out.println(" fajnie");
     }
 
 }
