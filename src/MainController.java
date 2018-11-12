@@ -10,4 +10,9 @@ public class MainController {
         System.out.println(" fajnie");
     }
 
+    public static String getSomeText(String s ){
+
+        return s+ " someTExt";
+    }
+
 }
